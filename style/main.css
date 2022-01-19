@@ -11975,7 +11975,7 @@ footer p {
   color: #979797;
 }
 
-.form-control {
+.form-control, .form-select {
   background-color: #f3f3f3;
 }
 
