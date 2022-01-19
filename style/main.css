@@ -12195,6 +12195,64 @@ footer p {
   border-color: transparent;
 }
 
+.page-auth .row-login {
+  min-height: 70vh;
+}
+
+.page-auth .section-store-auth h2, .page-auth .section-store-auth .h2 {
+  font-weight: 300;
+  font-size: 28px;
+  margin-top: 0;
+  color: #0c0d36;
+}
+
+.page-auth .section-store-auth .form-control {
+  border-radius: 8px;
+  background: #f3f3f3;
+}
+
+.page-auth .section-store-auth .btn-signup {
+  color: #000;
+  background-color: #f3f3f3;
+  border-color: transparent;
+  color: #bbbbbb;
+}
+
+.page-auth .section-store-auth .btn-signup:hover {
+  color: #000;
+  background-color: whitesmoke;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-check:focus + .page-auth .section-store-auth .btn-signup, .page-auth .section-store-auth .btn-signup:focus {
+  color: #000;
+  background-color: whitesmoke;
+  border-color: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.btn-check:checked + .page-auth .section-store-auth .btn-signup,
+.btn-check:active + .page-auth .section-store-auth .btn-signup, .page-auth .section-store-auth .btn-signup:active, .page-auth .section-store-auth .btn-signup.active,
+.show > .page-auth .section-store-auth .btn-signup.dropdown-toggle {
+  color: #000;
+  background-color: whitesmoke;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-check:checked + .page-auth .section-store-auth .btn-signup:focus,
+.btn-check:active + .page-auth .section-store-auth .btn-signup:focus, .page-auth .section-store-auth .btn-signup:active:focus, .page-auth .section-store-auth .btn-signup.active:focus,
+.show > .page-auth .section-store-auth .btn-signup.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.page-auth .section-store-auth .btn-signup:disabled, .page-auth .section-store-auth .btn-signup.disabled {
+  color: #000;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+
 .component-categories {
   background: #f4f4f4;
   border-radius: 8px;
