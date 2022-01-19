@@ -12143,6 +12143,58 @@ footer p {
   margin-top: 18px;
 }
 
+.page-success .row-login {
+  min-height: 75vh;
+}
+
+.page-success .section-success h2, .page-success .section-success .h2 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #0c0d36;
+}
+
+.page-success .section-success .btn-signup {
+  color: #000;
+  background-color: #f3f3f3;
+  border-color: transparent;
+  color: #bbbbbb;
+}
+
+.page-success .section-success .btn-signup:hover {
+  color: #000;
+  background-color: whitesmoke;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-check:focus + .page-success .section-success .btn-signup, .page-success .section-success .btn-signup:focus {
+  color: #000;
+  background-color: whitesmoke;
+  border-color: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.btn-check:checked + .page-success .section-success .btn-signup,
+.btn-check:active + .page-success .section-success .btn-signup, .page-success .section-success .btn-signup:active, .page-success .section-success .btn-signup.active,
+.show > .page-success .section-success .btn-signup.dropdown-toggle {
+  color: #000;
+  background-color: whitesmoke;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-check:checked + .page-success .section-success .btn-signup:focus,
+.btn-check:active + .page-success .section-success .btn-signup:focus, .page-success .section-success .btn-signup:active:focus, .page-success .section-success .btn-signup.active:focus,
+.show > .page-success .section-success .btn-signup.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.page-success .section-success .btn-signup:disabled, .page-success .section-success .btn-signup.disabled {
+  color: #000;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+
 .component-categories {
   background: #f4f4f4;
   border-radius: 8px;
